@@ -1,0 +1,57 @@
+body {
+    font-family: Arial;
+    background: #f0f2f5;
+}
+
+.container {
+    width: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 8px;
+}
+
+.add-btn {
+    background: green;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.edit-btn {
+    background: blue;
+    color: white;
+    padding: 5px 8px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    padding: 5px 8px;
+    text-decoration: none;
+}
